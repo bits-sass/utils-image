@@ -1,0 +1,25 @@
+/* ==========================================================================
+   Image utilities
+   ========================================================================== */
+
+/**
+ * Image replacement technique, see http://bit.ly/NgnSfH for details.
+ */
+
+.u-ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+}
+
+/**
+ * If the IR'ed element has bottom-padding, then either it needs to be
+ * removed or the height needs to be bumped up (e.g., set to 200%).
+ */
+
+.u-ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
