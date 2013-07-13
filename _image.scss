@@ -3,10 +3,20 @@
    ========================================================================== */
 
 /**
+ * Variables
+ *
+ * It is recommended to override these.
+ *
+ * 1. Namespace of bits.css's classes.
+ */
+
+$bits-ns: 'bits-' !default; /* 1 */
+
+/**
  * Image replacement technique, see http://bit.ly/NgnSfH for details.
  */
 
-.u-ir {
+.#{$bits-ns}.u-ir {
   background-color: transparent;
   border: 0;
   overflow: hidden;
@@ -17,7 +27,7 @@
  * removed or the height needs to be bumped up (e.g., set to 200%).
  */
 
-.u-ir:before {
+.#{$bits-ns}.u-ir:before {
   content: "";
   display: block;
   width: 0;
