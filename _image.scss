@@ -16,7 +16,7 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
  * Image replacement technique, see http://bit.ly/NgnSfH for details.
  */
 
-.#{$bits-utils-ns}.u-ir {
+.#{$bits-utils-ns}u-ir {
   background-color: transparent;
   border: 0;
   overflow: hidden;
@@ -27,7 +27,7 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
  * removed or the height needs to be bumped up (e.g., set to 200%).
  */
 
-.#{$bits-utils-ns}.u-ir:before {
+.#{$bits-utils-ns}u-ir:before {
   content: "";
   display: block;
   width: 0;
