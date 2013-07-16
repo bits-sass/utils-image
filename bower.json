@@ -1,6 +1,6 @@
 {
   "name": "bits-scss-utils-image",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "Lukáš Mladý",
   "main": "_image.scss"
 }
