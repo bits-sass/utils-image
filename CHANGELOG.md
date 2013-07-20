@@ -1,5 +1,9 @@
 === HEAD
 
+=== 0.3.2 (July 20, 2013)
+
+* Rename organization's name to 'Bits.sass'
+
 === 0.3.1 (July 16, 2013)
 
 * Fix class names
