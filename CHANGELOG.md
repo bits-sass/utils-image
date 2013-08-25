@@ -1,5 +1,9 @@
 === HEAD
 
+=== 0.4.0 (August 25, 2013)
+
+* Add `background-repeat: no-repeat` to `u-ir`
+
 === 0.3.2 (July 20, 2013)
 
 * Rename organization's name to 'Bits.sass'
