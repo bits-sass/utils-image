@@ -1,6 +1,7 @@
 === HEAD
 
 * Add `!important` to all rules
+* Add `u-imageResponsive` utility
 
 === 0.4.0 (August 25, 2013)
 

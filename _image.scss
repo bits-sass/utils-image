@@ -12,6 +12,8 @@
 
 $bits-utils-ns: 'bits-' !default; /* 1 */
 
+/* -------------------------------------------------------------------------- */
+
 /**
  * Image replacement technique, see http://bit.ly/NgnSfH for details.
  */
@@ -33,4 +35,20 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
   display: block;
   width: 0;
   height: 150%;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/**
+ * Responsive image
+ *
+ * 1. Remove the gap between image and the bottom of their containers
+ * 2. Maximum width of its parent
+ * 3. Scale the height properly ensuring the right ratio
+ */
+
+.#{$bits-utils-ns}u-imageResponsive {
+  vertical-align: middle; /* 1 */
+  max-width: 100%; /* 2 */
+  height: auto; /* 3 */
 }
