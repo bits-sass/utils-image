@@ -1,5 +1,7 @@
 === HEAD
 
+* Add `!important` to all rules
+
 === 0.4.0 (August 25, 2013)
 
 * Add `background-repeat: no-repeat` to `u-ir`

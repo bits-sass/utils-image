@@ -17,10 +17,10 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
  */
 
 .#{$bits-utils-ns}u-ir {
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: 0;
-  overflow: hidden;
+  overflow: hidden !important;
+  background-color: transparent !important;
+  background-repeat: no-repeat !important;
+  border: 0 !important;
 }
 
 /**
