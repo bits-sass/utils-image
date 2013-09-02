@@ -16,7 +16,7 @@ Read more about [Bits.sass toolkit](https://github.com/bits-sass/bits.sass).
 
 ## Available utility classes
 
-* `u-ir` - image replacement, see http://bit.ly/NgnSfH
+* `u-imageReplace` - image replacement, see http://bit.ly/NgnSfH
 * `u-imageResponsive` - responsive image
 
 ## Requirements

@@ -2,6 +2,7 @@
 
 * Add `!important` to all rules
 * Add `u-imageResponsive` utility
+* Rename `u-ir` to `u-imageReplace`
 
 === 0.4.0 (August 25, 2013)
 
