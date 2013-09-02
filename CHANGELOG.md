@@ -4,6 +4,7 @@
 * Add `u-imageResponsive` utility
 * Rename `u-ir` to `u-imageReplace`
 * Reorder properties
+* Use new style for comments
 
 === 0.4.0 (August 25, 2013)
 
