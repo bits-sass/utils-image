@@ -1,5 +1,7 @@
 === HEAD
 
+=== 0.5.0 (September 2, 2013)
+
 * Add `!important` to all rules
 * Add `u-imageResponsive` utility
 * Rename `u-ir` to `u-imageReplace`
